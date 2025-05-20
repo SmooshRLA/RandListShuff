@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List Shuffler</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>List Shuffler</h1>
+
+        <div>
+            <label for="docSelector">Select Document:</label>
+            <select id="docSelector"></select>
+            <button onclick="createNewDoc()">+ New  Document</button>
+        </div>
+
+        <textarea id="textArea" rows="15" cols="60"></textarea><br>
+
+        <button onclick="shuffleTxt()">Shuffle</button>
+        <button onclick="saveDoc()">Save</button>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 20px;
+}
+
+textarea{
+    display: block;
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 1em;
+    width: 100%;
+}
